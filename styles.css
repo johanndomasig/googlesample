@@ -1,0 +1,178 @@
+*{
+   font-family: arial, sans-serif;
+   font-size: 62.5%;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+   }
+
+/* header */
+.navheader{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 15px;
+margin: 20px 20px 0 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+.navheader > a{
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.navheader .top_image{
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgb(238, 233, 233);
+    
+}
+
+.navheader > a:hover{
+    text-decoration: underline;
+	opacity: .85;
+}
+
+.navheader .top_image:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+/* main content */
+.content{
+    width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.content .input{
+    display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 90%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+
+.main_content{
+    flex: 1;
+}
+
+.main_content .image{
+    display: block;
+	margin: 0px auto;
+	margin-top: 107px;
+}
+
+.content .search-icon {
+	width: 20px;
+	opacity: .4;
+	position: absolute;
+	top: 13px;
+	left: 14px;
+}
+
+
+/* buttons */
+.google_search {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #666;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 28px;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+}
+.google_search:hover {
+	border: 1px solid #aaa;
+}
+
+.content .icon1 {
+	width: 35px;
+	position: absolute;
+	top: 10px;
+	right: 60px;
+}
+
+.content .icon2 {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+
+.offered{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text{
+    color: grey;
+    font-size: 1rem;
+}
+
+.offered >a {
+    color: blue;
+    font-size: 1rem;
+}
+
+.offered >a:hover{
+    text-decoration: underline;
+}
+
+footer {
+	background: #f2f2f2;
+}
+footer h4 {
+	color: rgba(0,0,0, 0.54);
+	font-size: 15px;
+	line-height: 39.5px;
+	font-weight: 400;
+	padding-left: 29px;
+	border: 1px solid #eee;
+}
+footer a {
+	color: #5f6368;
+	display: inline-block;
+	padding: 12px 11.3px;
+	font-size: 14px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.links {
+	border-top: 1px solid #ddd;
+	display: flex;
+}
+.link-1 {
+	padding-left: 18.7px;
+    flex: 1;
+}
+
+.link-2 {
+	padding-right: 18.7px;
+}
+footer{
+    margin-top: 120px;
+}
